@@ -11,7 +11,7 @@ generate "dev_tfvars" {
   if_exists         = "overwrite"
   disable_signature = true
   contents          = <<-EOF
-    alb_name = "default"
+    alb_name = "Core-Sjso4jDev-C18D1E-alb"
     cloudfront = true
     cloudfront_origin_domain = "startup-sample-project.tnfhhm-dev.nimbus.cloud.gov.bc.ca"
     service_names = ["startup-sample-project"]
